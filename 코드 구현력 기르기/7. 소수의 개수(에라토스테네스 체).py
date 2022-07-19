@@ -10,4 +10,4 @@ for i in range(2, n+1): # 2 부터 n 까지 i에 하나씩 넣으면서 반복. 
         cnt +=1
     for j in range(i, n+1, i): # start , end , step(1이면 1씩증가 2면 2씩증가)
         ch[j] = 1 # i 씩증가 했을때의 값에 1로 초기화 시켜준다.
-print(cnt) #소수 개수 출력
+print(cnt) #소수 개수 출력.
