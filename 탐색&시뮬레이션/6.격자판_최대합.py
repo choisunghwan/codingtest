@@ -22,8 +22,9 @@ for i in range(n):
 # 두 대각선 최대합 구하기  
 sum1 = sum2 = 0
 for i in range (n):
-    sum1 += a[i][i]
-    sum2 += a[i][n-i-1]
+    sum1 += a[i][i] # 오른쪽에서 왼쪽 아래로의 대각선 합 구하기
+    sum2 += a[i][n-i-1] #왼쪽에서 오른쪽 대각선 합 구하기
+    
 if sum1 > largest:
     largest = sum1 
 if sum2 > largest:
