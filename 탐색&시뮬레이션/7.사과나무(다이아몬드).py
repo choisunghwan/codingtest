@@ -1,3 +1,4 @@
+# 다이아몬드 모양안의 수 모두 더하기.
 import sys
 #sys.stdin=open("C:\\Users\\csh\\Desktop\\코딩테스트\\탐색&시뮬레이션\\input.txt",'rt')
 
