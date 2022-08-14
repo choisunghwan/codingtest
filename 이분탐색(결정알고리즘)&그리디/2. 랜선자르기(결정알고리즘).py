@@ -5,11 +5,13 @@ def Count(len):
     cnt = 0
     for x in line:
         cnt +=(x//len)
+    return cnt
 
 k, n = map(int,input().split()) # 이미 가지고 있는 랜선의 개수 k , 필요한 랜선의 개수 n
 line = []
-les = 0
+res = 0
 largest = 0 
+
 for i in range(k):
     tmp = int(input())
     line.append(tmp)
@@ -17,6 +19,11 @@ for i in range(k):
 lt = 1
 rt = largest
 
-while lt < rt:
+while lt <= rt:
     mid = (lt+rt)//2
     if Count(mid) >= n:
+        res = mid
+        lt = mid + 1
+    else:
+        rt = mid - 1
+print(res)
