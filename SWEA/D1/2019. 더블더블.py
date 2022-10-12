@@ -5,5 +5,5 @@ n = int(input()) # 1개의 정수가 주어진다.
 res=0
 
 for i in range(n):
-    res= 2**(i+1)
+    res= 2**i
     print(res, end=' ')
