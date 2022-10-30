@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("C:\\Users\\csh\\Desktop\\코딩테스트\\SWEA\\D2\\input.txt", 'rt')
+sys.stdin = open("C:\\Users\\csh\\Documents\\코딩테스트\\SWEA\\D2\\input.txt", 'rt')
 
 n = int(input()) # 1개의 정수가 주어진다.
 
