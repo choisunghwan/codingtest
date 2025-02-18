@@ -24,7 +24,7 @@ for i in range(n-1):
     p[word] = 0
 
 for key,val in p.items():
-    print(key,val)
+    # print(key,val)
     if val == 1:
         print(key)
         break
