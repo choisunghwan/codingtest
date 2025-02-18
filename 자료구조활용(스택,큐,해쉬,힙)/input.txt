@@ -1,2 +1,10 @@
-5 2
-60 50 70 80 90
+5
+big
+good
+sky
+blue
+mouse
+sky
+good
+mouse
+big
