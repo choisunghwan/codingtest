@@ -35,8 +35,3 @@ for i in str1.keys():
 # 모든 문자가 일치할 경우 
 else:
     print("YES")
-
-
-
-# print(str2)
-
