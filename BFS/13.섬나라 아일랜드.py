@@ -1,6 +1,15 @@
 import sys
 from collections import deque
 
+
+# 7
+# 1 0 1 0 0 1 1
+# 1 0 0 0 1 1 1
+# 0 0 1 1 1 1 1
+# 0 1 0 0 0 1 1
+# 0 0 1 0 1 1 0
+# 1 1 0 0 0 0 0
+# 1 0 1 1 1 0 0
 sys.stdin = open("C:/Users/csh/Documents/코딩테스트/BFS/input.txt", "r")
 
 # 방향 벡터 (상,하,좌,우,대각선)
